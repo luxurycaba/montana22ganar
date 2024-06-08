@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONTANA 22 GANAR</title>
+    <link rel="icon" href="./img/logo.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form class="form" id="form">
+        <div class="form-name">
+          <label for="name">TITULAR:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Escriba el titular"
+          />
+        </div>
+        <div class="form-number">
+          <label for="number">CBU:</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Escriba el CBU"
+          />
+        </div>
+        <div class="form-alias">
+          <label for="alias">ALIAS:</label>
+          <input
+            type="text"
+            name="alias"
+            id="alias"
+            placeholder="Escriba el alias"
+          />
+        </div>
+        <div>
+          <button type="submit" class="form-button" id="formButton">CARGAR INFO</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="pad-container">
+        <button class="pad-button" id="fichasCargadas">FICHAS CARGADAS</button>
+      </div>
+
+      <div class="pad-container">
+        <button class="pad-button" id="cbu">CBU</button>
+      </div>
+
+      <div class="pad-container">
+        <button class="pad-button" id="referidos">REFERIDOS</button>
+      </div>
+
+      <div class="pad-container">
+        <button class="pad-button" id="retirar">RETIRAR</button>
+      </div>
+
+      <div class="pad-container">
+        <button id="pad-button-reg">BIENVENIDA</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="modal-form">
+              <label for="usuario" class="modal-label"
+                >NOMBRE DEL USUARIO</label
+              >
+              <input
+                type="text"
+                name="usuario"
+                id="usuario"
+                class="modal-input"
+                placeholder="Escriba el usuario"
+              />
+              <input
+                type="submit"
+                value="REGISTRAR"
+                class="modal-button"
+                id="modal-button"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="pad-container">
+        <button class="pad-button" id="sistemaDePagos">SISTEMA DE PAGOS</button>
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
