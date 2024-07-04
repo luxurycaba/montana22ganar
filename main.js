@@ -89,19 +89,20 @@ bienvenida.addEventListener("click", function (e) {
 
 Podes encontrar CASINO EN VIVO, RULETAS, BLACKJACK, APUESTAS DEPORTIVAS Y +1000 SLOTS!
 
-Atención personalizada las 24hs⏰ 
+Atención personalizada 24hs⏰
 *BONIFICACION DEL 100% EN TU PRIMER CARGA*🤩
 
-*Usuario*: ${user}
-*Clave*: vip123
-*Página*: https://citygame.casino/
+👤*Usuario*: ${user}
+🔒*Clave*: vip123
 
-Mínimo de cargas: $1.500
-Mínimo de retiros: $3.000
+🎰*Página*: https://citygame.casino/🎰
+
+💵*Mínimo de carga*: $1.500
+💵 *Mínimo de retiros*: $3.000
 Horario de retiros de 12hs a 00hs🕣
 Un retiro diario cada 24hs💸
 
-⛔️ *Consúltanos siempre CBU/ALIAS disponible para realizar tu primer carga y comenzar a GANAR* ⛔️`;
+⛔️ *Consúltanos siempre CBU/ALIAS disponible para realizar tu primer carga y comenzar a GANAR*⛔`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
   document.body.appendChild(elementoTemporal);
