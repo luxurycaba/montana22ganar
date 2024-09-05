@@ -48,7 +48,7 @@ form.addEventListener("submit", function (e) {
 fichasCargadas.addEventListener("click", () => {
   const texto = `*Fichas cargadas!!!*🍀♦️muchos éxitos🫂 
 
-No olvides agendarme para acceder a nuestras promos diarias 💝
+No olvides agendarme como *"Cata Cajera"* para acceder a nuestras promos diarias 💝
 
 Consultar cbu disponible siempre antes de enviar‼️ https://citygame.casino`;
   const elementoTemporal = document.createElement("textarea");
@@ -103,7 +103,7 @@ Atención personalizada 24hs⏰
 🎰*Página*: https://citygame.casino/🎰
 
 💵*Mínimo de carga*: $1.500
-💵 *Mínimo de retiros*: $3.000
+💵 *Mínimo de retiros*: $4.000
 Horario de retiros de 12hs a 00hs🕧
 Un retiro diario cada 24hs💸
 
@@ -169,7 +169,7 @@ sistemaDePagos.addEventListener("click", () => {
 *Horarios*: 12hs a 00hs 🕧
 Un retiro diario cada 24hs!
 
-💵*Mínimo de retiro*: $3.000
+💵*Mínimo de retiro*: $4.000
 💵*Máximo de retiro*: $50.000`;
   const elementoTemporal = document.createElement("textarea");
   elementoTemporal.value = texto;
