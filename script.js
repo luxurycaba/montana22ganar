@@ -260,8 +260,6 @@ Un retiro diario cada 24hs!
     overlay.style.display = "none"; // Cerrar el overlay del primer menú
     inputTitular = document.getElementById("titular").value.trim();
     inputCBU = document.getElementById("cbu").value.trim();
-    inputAlias = document.getElementById("alias").value.trim();
-    inputCierre = document.getElementById("cierre").value.trim();
     form.reset(); // Limpiar los campos del formulario
     firstVisit = false;
     document.body.style.overflow = "auto"; // Permitir desplazamiento del body
