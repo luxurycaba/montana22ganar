@@ -142,7 +142,7 @@ Una vez que le retiramos sus fichas el mismo sistema de la pagina tambien baja l
   });
 
   avisame.addEventListener("click", () => {
-    const texto = `Avisame y te envio cbu activo, recorda que tenes *100% de bonificacion* en tu primera carga‼️🔥`;
+    const texto = `Te dejo cbu activo, recorda que tenes *100% de bonificacion* en tu primera carga‼️🔥`;
     copyToClipboard(texto);
   });
 
@@ -188,8 +188,11 @@ Debajo de este mensaje le vamos a estar dejando su contacto que tambien puede en
 *Horarios*: 12hs a 00hs 🕛
 Un retiro diario cada 24hs!
 
-💵*Mínimo de retiro*: $4.000
-💵*Máximo de retiro*: $50.000
+💵*Mínimo de retiro*: $3.000
+
+💵*Cargas -$30.000 Máximo de retiro*: $50.000
+
+💵*Cargas +$30.000 Máximo de retiro*: $100.000
 `;
     copyToClipboard(texto);
   });
@@ -276,7 +279,7 @@ Un retiro diario cada 24hs!
 
 Podes encontrar CASINO EN VIVO, RULETAS, BLACKJACK, APUESTAS DEPORTIVAS Y +3000 SLOTS!
 
-💵*Mínimo de carga: $1.500*
+💵*MÍNIMO DE CARGA: $1.000*
 
 *BONIFICACION DEL 100% EN TU PRIMER CARGA*💝
 
