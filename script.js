@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const textoDeReferidos = document.getElementById("btn-textoDeReferidos");
   const retiro = document.getElementById("btn-retiro");
   const avisame = document.getElementById("btn-avisame");
+  const saldoCobrable = document.getElementById("btn-saldoCobrable");
   const premioEnviado = document.getElementById("btn-premioEnviado");
   const cookies = document.getElementById("btn-cookies");
   const canal = document.getElementById("btn-canal");
@@ -143,6 +144,14 @@ Una vez que le retiramos sus fichas el mismo sistema de la pagina tambien baja l
 
   avisame.addEventListener("click", () => {
     const texto = `Te dejo cbu activo, recorda que tenes *100% de bonificacion* en tu primera carga‼️🔥`;
+    copyToClipboard(texto);
+  });
+
+  saldoCobrable.addEventListener("click", () => {
+    const texto = `*¿Como ver su saldo cobrable?*💰🤔
+
+En la pagina puede verificarlo, selecciona su usuario arriba a la derecha👤 y le van a figurar dos saldos, "balance" que es el total junto con la bonificacion y "saldo cobrable" es el saldo que puede retirar.
+`;
     copyToClipboard(texto);
   });
 
